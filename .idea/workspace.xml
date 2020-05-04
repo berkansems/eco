@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56a47a1b-6cc9-4033-8bf6-24ca6fd82d8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/djangoEcommerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZQtLX5dnQYqY0yybNs0jN72o2A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="eco" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/untitled/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accounts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accounts/decorators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="eco" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8090" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python2" type="PythonConfigurationType" factoryName="Python">
+      <module name="djangoEcommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="manage.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoEcommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accounts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accounts/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python2" />
+      <item itemvalue="Python.decorators" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56a47a1b-6cc9-4033-8bf6-24ca6fd82d8a" name="Default Changelist" comment="" />
+      <created>1584783089190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584783089190</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1585656964164">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585656964164" />
+    <state x="51" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588616145673">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="51" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611071591" />
+    <state x="51" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588616145673" />
+    <state x="376" y="158" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588612621578">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="376" y="158" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588612621578" />
+    <state x="325" y="242" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588612831111">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="325" y="242" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588612831111" />
+    <state x="743" y="297" key="#xdebugger.evaluate" timestamp="1588613283477">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="743" y="297" key="#xdebugger.evaluate/51.27.1869.1053@51.27.1869.1053" timestamp="1588613283477" />
+    <state x="586" y="124" width="805" height="856" key="CommitChangelistDialog2" timestamp="1585658093166">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="586" y="124" width="805" height="856" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585658093166" />
+    <state x="433" y="192" width="309" height="516" key="EnvironmentVariablesDialog" timestamp="1588612869238">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="433" y="192" width="309" height="516" key="EnvironmentVariablesDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588612869238" />
+    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588623808435">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="735" y="1058" width="424" height="484" key="FileChooserDialogImpl/0.768.1920.1080/51.0.1315.768@0.768.1920.1080" timestamp="1588445187593" />
+    <state x="554" y="226" width="374" height="333" key="FileChooserDialogImpl/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588610821308" />
+    <state x="2443" y="206" width="374" height="354" key="FileChooserDialogImpl/51.27.1869.1053/1920.0.1366.768@1920.0.1366.768" timestamp="1586878139462" />
+    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl/51.27.1869.1053/1920.0.1366.768@51.27.1869.1053" timestamp="1587134894514" />
+    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl/51.27.1869.1053@51.27.1869.1053" timestamp="1588623808435" />
+    <state x="915" y="309" width="424" height="484" key="FileChooserDialogImpl/51.27.3235.1053@51.27.3235.1053" timestamp="1586850587262" />
+    <state x="776" y="310" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1584949737965" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1586199136918" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1584825823788" />
+    <state width="1846" height="204" key="GridCell.Tab.0.bottom" timestamp="1588617469653">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="278" key="GridCell.Tab.0.bottom/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
+    <state width="1846" height="204" key="GridCell.Tab.0.bottom/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
+    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
+    <state width="1846" height="204" key="GridCell.Tab.0.center" timestamp="1588617469653">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="278" key="GridCell.Tab.0.center/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
+    <state width="1846" height="204" key="GridCell.Tab.0.center/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
+    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
+    <state width="1846" height="204" key="GridCell.Tab.0.left" timestamp="1588617469652">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="278" key="GridCell.Tab.0.left/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
+    <state width="1846" height="204" key="GridCell.Tab.0.left/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469652" />
+    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
+    <state width="1846" height="204" key="GridCell.Tab.0.right" timestamp="1588617469653">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="278" key="GridCell.Tab.0.right/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
+    <state width="1846" height="204" key="GridCell.Tab.0.right/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
+    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
+    <state width="1846" height="233" key="GridCell.Tab.1.bottom" timestamp="1588615711303">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="344" key="GridCell.Tab.1.bottom/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232610" />
+    <state width="1846" height="233" key="GridCell.Tab.1.bottom/51.27.1869.1053@51.27.1869.1053" timestamp="1588615711303" />
+    <state width="1846" height="233" key="GridCell.Tab.1.center" timestamp="1588615711302">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="344" key="GridCell.Tab.1.center/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232610" />
+    <state width="1846" height="233" key="GridCell.Tab.1.center/51.27.1869.1053@51.27.1869.1053" timestamp="1588615711302" />
+    <state width="1846" height="233" key="GridCell.Tab.1.left" timestamp="1588615711301">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="344" key="GridCell.Tab.1.left/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232610" />
+    <state width="1846" height="233" key="GridCell.Tab.1.left/51.27.1869.1053@51.27.1869.1053" timestamp="1588615711301" />
+    <state width="1846" height="233" key="GridCell.Tab.1.right" timestamp="1588615711302">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state width="1846" height="344" key="GridCell.Tab.1.right/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232610" />
+    <state width="1846" height="233" key="GridCell.Tab.1.right/51.27.1869.1053@51.27.1869.1053" timestamp="1588615711302" />
+    <state x="470" y="187" key="SettingsEditor" timestamp="1588612272635">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="470" y="187" key="SettingsEditor/51.27.1869.1053@51.27.1869.1053" timestamp="1588612272635" />
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1586194657194" />
+    <state x="714" y="286" width="540" height="524" key="StructurePopup" timestamp="1586794277068">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="714" y="286" width="540" height="524" key="StructurePopup/51.27.1869.1053/1920.0.1366.768@51.27.1869.1053" timestamp="1586794277068" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+version: "3.3"
+
+services:
+  accounts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: accounteco
+
+    ports:
+      - 8081:8000
+    command: sh -c "python manage.py runserver 0.0.0.0:8000"
+    links:
+      - postgres:postgres
+    env_file:
+      - ./env/django.env
+    environment:
+      - LOG_PATH=/var/log/docklog/myapp.log
+    volumes:
+      - /opt/log:/var/log/docklog
+
+  postgres:
+    image: postgres:10.4
+    container_name: postgreseco
+    env_file:
+      - ./env/postgresql.env
+    volumes:
+      - /opt/data:/var/lib/postgresql/data/
+
+    links:
+      - rabbitmq
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    hostname: rabbit
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    volumes:
+      - ./opt/rabbitmq:/etc/rabbitmq/rabbitmq.config

@@ -1,0 +1,42 @@
+{% extends 'accounts/main.html' %}
+{% load static %}
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-5">
+        <div class="card card-body">
+
+                {% csrf_token %}
+                {% for order in orders %}
+                    {{orders.management_form}}
+
+                    <span>Product name: <span style="color:red; font-weight: bold ">{{order.product}}</span>
+                    <span>| total ordered number: </span> <span style="color:red; font-weight: bold ">{{order.adet}}</span>
+                    <span>| total cost: </span> <span style="color:green; font-weight: bold ">{{order.totalCost}} $</span> </span>
+
+                <hr>
+                {% endfor %}
+
+                <a class="btn btn-outline-info btn btn-sm btn-block" href="{% url 'purchase' user.customer.id%}">Continue Shopping</a>
+        </div>
+
+    </div>
+    <div class="col-md-3">
+        <div class="card card-body">
+
+            {% csrf_token %}
+
+
+            {{orders.management_form}}
+
+            <H3><span style="color:green; font-weight: bold " >{{totalOrdersAmount}}</span><span> PIECES </span>TOTAL COST:</H3>
+
+            <H2><span style="color:green; font-weight: bold ">{{totalOrderingCost}} $</span></H2>
+            <hr>
+            <a class="btn btn-primary btn-sm btn-block" href="#"> Pay with PayPAL</a>
+
+
+        </div>
+    </div>
+</div>
+{% endblock %}
