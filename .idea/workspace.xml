@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a47a1b-6cc9-4033-8bf6-24ca6fd82d8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/djangoEcommerce.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/rabbitConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/rabbitConnection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/postgresql.env" beforeDir="false" afterPath="$PROJECT_DIR$/env/postgresql.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/github/website" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -51,7 +47,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/untitled/venv/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../PycharmProjects/untitled/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accounts" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -82,9 +78,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="net.ashald.envfile">
@@ -98,7 +94,7 @@
         </ENTRIES>
       </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:8090" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8093" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -188,9 +184,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585656964164" />
-    <state x="51" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588616145673">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state x="51" y="987" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588796298239">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state x="51" y="987" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588796298239" />
     <state x="51" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611071591" />
     <state x="51" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588616145673" />
     <state x="376" y="158" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588612621578">
@@ -213,9 +210,10 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="433" y="192" width="309" height="516" key="EnvironmentVariablesDialog/51.27.1869.1053@51.27.1869.1053" timestamp="1588612869238" />
-    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588623808435">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state x="735" y="1058" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588795954470">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state x="735" y="1058" key="FileChooserDialogImpl/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588795954470" />
     <state x="735" y="1058" width="424" height="484" key="FileChooserDialogImpl/0.768.1920.1080/51.0.1315.768@0.768.1920.1080" timestamp="1588445187593" />
     <state x="554" y="226" width="374" height="333" key="FileChooserDialogImpl/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588610821308" />
     <state x="2443" y="206" width="374" height="354" key="FileChooserDialogImpl/51.27.1869.1053/1920.0.1366.768@1920.0.1366.768" timestamp="1586878139462" />
@@ -225,27 +223,31 @@
     <state x="776" y="310" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1584949737965" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1586199136918" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1584825823788" />
-    <state width="1846" height="204" key="GridCell.Tab.0.bottom" timestamp="1588617469653">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1846" height="248" key="GridCell.Tab.0.bottom" timestamp="1588803019195">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state width="1846" height="248" key="GridCell.Tab.0.bottom/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588803019195" />
     <state width="1846" height="278" key="GridCell.Tab.0.bottom/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
     <state width="1846" height="204" key="GridCell.Tab.0.bottom/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
     <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
-    <state width="1846" height="204" key="GridCell.Tab.0.center" timestamp="1588617469653">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1846" height="248" key="GridCell.Tab.0.center" timestamp="1588803019195">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state width="1846" height="248" key="GridCell.Tab.0.center/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588803019195" />
     <state width="1846" height="278" key="GridCell.Tab.0.center/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
     <state width="1846" height="204" key="GridCell.Tab.0.center/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
     <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
-    <state width="1846" height="204" key="GridCell.Tab.0.left" timestamp="1588617469652">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1846" height="248" key="GridCell.Tab.0.left" timestamp="1588803019195">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state width="1846" height="248" key="GridCell.Tab.0.left/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588803019195" />
     <state width="1846" height="278" key="GridCell.Tab.0.left/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
     <state width="1846" height="204" key="GridCell.Tab.0.left/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469652" />
     <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
-    <state width="1846" height="204" key="GridCell.Tab.0.right" timestamp="1588617469653">
-      <screen x="51" y="27" width="1869" height="1053" />
+    <state width="1846" height="248" key="GridCell.Tab.0.right" timestamp="1588803019195">
+      <screen x="0" y="768" width="1920" height="1080" />
     </state>
+    <state width="1846" height="248" key="GridCell.Tab.0.right/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588803019195" />
     <state width="1846" height="278" key="GridCell.Tab.0.right/0.768.1920.1080/51.27.1315.741@51.27.1315.741" timestamp="1588611232615" />
     <state width="1846" height="204" key="GridCell.Tab.0.right/51.27.1869.1053@51.27.1869.1053" timestamp="1588617469653" />
     <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1585663142459" />
@@ -278,6 +280,10 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="714" y="286" width="540" height="524" key="StructurePopup/51.27.1869.1053/1920.0.1366.768@51.27.1869.1053" timestamp="1586794277068" />
+    <state x="710" y="1344" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588800342988">
+      <screen x="0" y="768" width="1920" height="1080" />
+    </state>
+    <state x="710" y="1344" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.768.1920.1080/440.0.1024.768@0.768.1920.1080" timestamp="1588800342988" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

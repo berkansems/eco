@@ -9,7 +9,7 @@ services:
     container_name: accounteco
 
     ports:
-      - 8081:8000
+      - 8083:8000
     command: sh -c "python manage.py runserver 0.0.0.0:8000"
     links:
       - postgres:postgres
@@ -27,15 +27,15 @@ services:
       - ./env/postgresql.env
     volumes:
       - /opt/data:/var/lib/postgresql/data/
-
     links:
       - rabbitmq
 
   rabbitmq:
-    image: "rabbitmq:3-management"
-    hostname: rabbit
+    image: "rabbitmq:management"
+    hostname: rabbitmq
+    container_name: rabbitmq
     ports:
       - "15672:15672"
       - "5672:5672"
     volumes:
-      - ./opt/rabbitmq:/etc/rabbitmq/rabbitmq.config
+      - /opt/rabbitmq:/var/lib/rabbitmq/mnesia

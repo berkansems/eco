@@ -92,26 +92,26 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': os.environ.get("NAME", 'postgres') ,
-#        'USER': os.environ.get("USER",'postgres'),
-#        'PASSWORD': os.environ.get("PASSWORD", '123'),
-#        'HOST': os.environ.get("HOST",'postgres'),
-#        'PORT': os.environ.get("PORT",'5432')
-#    }
-#}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'website',
-        'USER': 'postgres',
-        'PASSWORD':123,
-        'HOST': 'localhost',
-        'PORT': 5432
+        'NAME': os.environ.get("NAME", 'postgres') ,
+        'USER': os.environ.get("USER",'postgres'),
+        'PASSWORD': os.environ.get("PASSWORD", '123'),
+        'HOST': os.environ.get("HOST",'postgreseco'),
+        'PORT': os.environ.get("PORT",'5432')
     }
 }
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'website',
+#        'USER': 'postgres',
+#        'PASSWORD':123,
+#        'HOST': 'localhost',
+#        'PORT': 5432
+#    }
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

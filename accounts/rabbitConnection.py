@@ -1,4 +1,4 @@
-import pika
+import pika,time
 import logging
 
 logger=logging.getLogger("logger2")
@@ -9,18 +9,19 @@ class RabbitConnection():
         server_down = True
         while server_down:
             try:
-                self.initialize_connection(host='localhost')
+                self.initialize_connection(host='rabbitmq')
                 server_down = False
                 logger.info('server is up!')
 
             except:
                 server_down = True
                 logger.warning('Cannot connect to rabbitmq server.')
+                time.sleep(2)
 
 
     def initialize_connection(self,host):
         logger.info('Attempting to establish RabbitMQ connection')
-        self.connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+        self.connection = pika.BlockingConnection(pika.ConnectionParameters(host))
         # Create a new channel with the next available channel number or pass in a channel number to use
         logger.info('connected')
 
